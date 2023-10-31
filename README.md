@@ -8,7 +8,7 @@
 
 Our implementation of MARVAir: Meteorology Augmented Residual-Based Visual Approach for Crowdsourcing Air Quality Inference. 
 
-- This repository includes the implementation of the deep learning backbone network involved to extract features from the pre-processed user data. 
+- This repository includes the implementation of the whole deep learning network described in the aforementioned paper. 
 - Should you have any concerns, feel free contact with me directly at muyanyao \at ieee.org
 
 If you use MARVAir in your project or research, fully or partially, please cite the following paper:
@@ -39,7 +39,7 @@ If you use MARVAir in your project or research, fully or partially, please cite 
 The following dependency is required to have this project working normally:
 
 - conda (anaconda, miniconda, or other variants)
-- CUDA (if GPU based acceleration is preferred)
+- CUDA (if GPU based acceleration is preferred. despite the theoretical possibility, this code is not tested with ROCm)
 
 The python environment required for this project can be easily installed through: 
 ```bash
